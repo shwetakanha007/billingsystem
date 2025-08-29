@@ -49,6 +49,7 @@ public class RegistrationService {
             throw new InvalidInputException(String.format("Invalid user type %s ", type));
         } catch (Exception e) {
             e.printStackTrace();
+            e.message();
             throw e;
         }
         return responseMessage;
