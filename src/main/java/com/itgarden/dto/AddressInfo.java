@@ -26,4 +26,6 @@ public class AddressInfo extends BaseInfo {
     private String landmark;
 
     private String mobile;
+
+    private String landmark;
 }
